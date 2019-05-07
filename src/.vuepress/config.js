@@ -42,7 +42,7 @@ module.exports = {
             link: '/zh/standard/Start.md'
           },
           {
-            text: '算法',
+            text: '算法题收集',
             items: [
               { text: '编程基本功', link: '/zh/algorithm/Charpter4.md'},
               { text: '数学趣题(一)', link: '/zh/algorithm/Charpter1.md'},
@@ -54,23 +54,25 @@ module.exports = {
           {
             text: '项目相关',
             items: [
+              { text: '后台考试管理系统分析', link: '/zh/standard/Management.md'},
               { text: '前端规范', link: '/zh/standard/Standard.md'},
               { text: '项目流程', link: '/zh/standard/Project.md'},
               { text: '前后端交互', link: '/zh/standard/Cooperation.md'},
               { text: '移动端兼容问题', link: '/zh/standard/Compatibility.md'}
             ],
           },
-          {
-            text: '知名公司面试题',
-            items: [
-              { text: '面试必看', link: '/zh/interview/index.md'},
-              { text: '阿里巴巴', link: '/zh/interview/ali.md'},
-              { text: '龙湖地产', link: '/zh/interview/longhu.md'}
-            ]
-          },
+          // {
+          //   text: '知名公司面试题',
+          //   items: [
+          //     { text: '面试必看', link: '/zh/interview/index.md'},
+          //     { text: '阿里巴巴', link: '/zh/interview/ali.md'},
+          //     { text: '龙湖地产', link: '/zh/interview/longhu.md'}
+          //   ]
+          // },
           {
             text: '知识点笔记',
             items: [
+              {text:'domdiff',link:'/zh/diff/domdiff.md'},
               {text:'git命令',link:'/zh/gitorder/index.md'},
               { text: '在线思维导图', link: '/zh/interface/Mind.md'},
               { text: 'Vue', link: '/zh/vue/' },
@@ -85,7 +87,7 @@ module.exports = {
         ],
         sidebar: {
           '/guide/': genSidebarConfig('指南'),
-          '/zh/ali/': [{title:'阿里面试题'}],
+          // '/zh/ali/': [{title:'阿里面试题'}],
           '/zh/vue/': [{title: 'Vue知识点', children: [
             '', 'Es6', 'Es6方法扩展', 'Webpack', 'Babel', 'Promise', 'Vue 各种方法之间的区别', 'Vue组件', 'Vue路由', 'Vue动画', 'vue钩子函数', 'vuex'
           ]}],

@@ -5,7 +5,7 @@ actionText: Let`s Go →
 actionLink: /zh/standard/Start.html
 sidebarDepth: 2
 sidebar: auto
-footer: MIT Licensed | Copyright © 1970-present Jasonandjay
+footer: MIT Licensed | Copyright © 1970-present wanghongting
 ---
 
 <div style="text-align: center">
@@ -14,8 +14,8 @@ footer: MIT Licensed | Copyright © 1970-present Jasonandjay
 
 <div class="features">
   <div class="feature">
-    <h2>勤于总结</h2>
-    <p>不断总结过去的知识点。</p>
+    <h2>学习不是走马观花</h2>
+    <p>要铭记于心</p>
   </div>
   <div class="feature">
     <h2>乐于学习</h2>
@@ -27,7 +27,7 @@ footer: MIT Licensed | Copyright © 1970-present Jasonandjay
   </div>
 </div>
 
-### 起步就像数 1, 2, 3 一样容易
+### 起步
 
 ``` bash
 # 安装
