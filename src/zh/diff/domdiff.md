@@ -39,7 +39,7 @@ Web UI 中 DOM 节点跨层级的移动操作特别少，可以忽略不计。
 
 对于同一层级的一组子节点，它们可以通过唯一 id 进行区分。
 
-### tree diff
+### 1.tree diff
 
 基于策略一，对树进行分层比较，两棵树只会对同一层次的节点进行比较。
 
@@ -67,7 +67,7 @@ React 只会简单的考虑同层级节点的位置变换，而对于不同层�
 
 移除或添加 DOM 节点。
 
-### component diff
+### 2.component diff
 
 依据策略二
 
@@ -85,7 +85,7 @@ React 判断 D 和 G 是不同类型的组件，就不会比较二者的结构�
 
 ![componentdiff](/study/componentdiff.png)
 
-### element diff
+### 3.element diff
 
 当节点处于同一层级时，React diff 提供了三种节点操作，分别为：INSERT_MARKUP（插入）、MOVE_EXISTING（移动）
 
@@ -153,6 +153,10 @@ E 的位置更新为新集合中的位置，nextIndex++
 删除：当完成新集合中所有节点 diff 时，最后还需要对老集合进行循环遍历，判断是否存在新集合中没有但老集合中仍存在的节点，
 
 发现存在这样的节点 D，因此删除节点 D
+
+### 以上三个操作是diff算法的核心 如下图：
+
+![answer](/study/answer.png)
 
 ### react diff的问题
 

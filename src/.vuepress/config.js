@@ -72,7 +72,7 @@ module.exports = {
           {
             text: '知识点笔记',
             items: [
-              {text:'domdiff',link:'/zh/diff/domdiff.md'},
+              {text:'Diff算法',link:'/zh/diff/domdiff.md'},
               {text:'git命令',link:'/zh/gitorder/index.md'},
               { text: '在线思维导图', link: '/zh/interface/Mind.md'},
               { text: 'Vue', link: '/zh/vue/' },
